@@ -1,0 +1,40 @@
+unit fnuevoafiliado;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls;
+
+type
+  Tfnuevo = class(TForm)
+    lbl1: TLabel;
+    lbl2: TLabel;
+    lbl3: TLabel;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    lbl6: TLabel;
+    lbl7: TLabel;
+    lbl8: TLabel;
+    dbedt1: TDBEdit;
+    dbedt2: TDBEdit;
+    dbedt3: TDBEdit;
+    dbedt4: TDBEdit;
+    dbedt5: TDBEdit;
+    dbedt6: TDBEdit;
+    dbedt7: TDBEdit;
+    dbedt8: TDBEdit;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fnuevo: Tfnuevo;
+
+implementation
+
+{$R *.dfm}
+
+end.

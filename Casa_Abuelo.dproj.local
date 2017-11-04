@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/07/30 15:47:58.000.716,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 15:49:27.000.213,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\main.pas</Transaction>
+    <Transaction>2017/07/30 15:49:27.000.213,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\main.dfm</Transaction>
+    <Transaction>2017/07/30 15:49:40.000.669,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Casa_Abuelo.dproj</Transaction>
+    <Transaction>2017/07/30 19:22:17.000.076,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:23:30.000.517,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Afiliados.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:23:30.000.517,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Afiliados.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:25:17.000.853,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:26:24.000.346,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Asistencia.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:26:24.000.346,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Asistencia.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:28:07.000.716,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:29:16.000.063,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Inventario.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:29:16.000.063,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Inventario.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:29:21.000.461,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:30:11.000.512,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Donaciones.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:30:11.000.512,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Donaciones.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:30:16.000.102,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:31:12.000.570,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Reportes.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:31:12.000.570,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Registro_Reportes.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:45:27.000.422,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:54:17.000.018,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Datamodulo.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:54:17.000.018,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Datamodulo.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:54:35.000.878,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/07/30 19:56:07.000.139,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Formulario_Inicio_Sesion.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm</Transaction>
+    <Transaction>2017/07/30 19:56:07.000.139,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Formulario_Inicio_Sesion.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/08/15 15:47:05.000.455,=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas</Transaction>
+    <Transaction>2017/08/15 15:48:18.000.455,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.pas=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\fnuevoafiliado.pas</Transaction>
+    <Transaction>2017/08/15 15:48:18.000.455,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\Unit1.dfm=C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\fnuevoafiliado.dfm</Transaction>
+    <Transaction>2017/10/24 10:37:11.000.526,C:\Users\Josue Tejeda\Documents\Embarcadero\Studio\Projects\casaabuelo\fnuevoafiliado.pas=</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Datamodulo.pas"/>
+    <File Path="Datamodulo.dfm"/>
+    <File Path="Formulario_Inicio_Sesion.pas"/>
+    <File Path="Formulario_Inicio_Sesion.dfm"/>
+    <File Path="main.pas"/>
+    <File Path="main.dfm"/>
+    <File Path="Registro_Afiliados.pas"/>
+    <File Path="Registro_Afiliados.dfm"/>
+    <File Path="Registro_Asistencia.pas"/>
+    <File Path="Registro_Asistencia.dfm"/>
+    <File Path="Registro_Donaciones.pas"/>
+    <File Path="Registro_Donaciones.dfm"/>
+    <File Path="Registro_Inventario.pas"/>
+    <File Path="Registro_Inventario.dfm"/>
+    <File Path="Registro_Reportes.pas"/>
+    <File Path="Registro_Reportes.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

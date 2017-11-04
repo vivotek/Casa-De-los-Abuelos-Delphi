@@ -1,0 +1,227 @@
+object fnuevo: Tfnuevo
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Afiliado Nuevo'
+  ClientHeight = 242
+  ClientWidth = 655
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl1: TLabel
+    Left = 52
+    Top = 32
+    Width = 59
+    Height = 22
+    Caption = 'Nombre:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 376
+    Top = 36
+    Width = 65
+    Height = 22
+    Caption = 'Apellido:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl3: TLabel
+    Left = 13
+    Top = 82
+    Width = 98
+    Height = 17
+    Caption = 'No. Identidad:'#13#10
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl4: TLabel
+    Left = 361
+    Top = 84
+    Width = 80
+    Height = 22
+    Caption = 'Residencia:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl5: TLabel
+    Left = 49
+    Top = 128
+    Width = 62
+    Height = 22
+    Caption = 'Telefono:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl6: TLabel
+    Left = 309
+    Top = 130
+    Width = 132
+    Height = 22
+    Caption = 'Fecha Nacimiento:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl7: TLabel
+    Left = 72
+    Top = 176
+    Width = 39
+    Height = 22
+    Caption = 'Edad:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl8: TLabel
+    Left = 351
+    Top = 176
+    Width = 90
+    Height = 22
+    Caption = 'Estado Civil:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Poor Richard'
+    Font.Style = []
+    ParentFont = False
+  end
+  object dbedt1: TDBEdit
+    Left = 117
+    Top = 35
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object dbedt2: TDBEdit
+    Left = 447
+    Top = 37
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object dbedt3: TDBEdit
+    Left = 117
+    Top = 83
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object dbedt4: TDBEdit
+    Left = 447
+    Top = 85
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object dbedt5: TDBEdit
+    Left = 117
+    Top = 131
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object dbedt6: TDBEdit
+    Left = 447
+    Top = 131
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object dbedt7: TDBEdit
+    Left = 117
+    Top = 179
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object dbedt8: TDBEdit
+    Left = 447
+    Top = 177
+    Width = 170
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+  end
+end

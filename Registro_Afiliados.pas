@@ -1,0 +1,90 @@
+unit Registro_Afiliados;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls, Vcl.StdCtrls,
+  cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters, cxStyles,
+  dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinBlueprint, dxSkinCaramel,
+  dxSkinCoffee, dxSkinDarkRoom, dxSkinDarkSide, dxSkinDevExpressDarkStyle,
+  dxSkinDevExpressStyle, dxSkinFoggy, dxSkinGlassOceans, dxSkinHighContrast,
+  dxSkiniMaginary, dxSkinLilian, dxSkinLiquidSky, dxSkinLondonLiquidSky,
+  dxSkinMcSkin, dxSkinMetropolis, dxSkinMetropolisDark, dxSkinMoneyTwins,
+  dxSkinOffice2007Black, dxSkinOffice2007Blue, dxSkinOffice2007Green,
+  dxSkinOffice2007Pink, dxSkinOffice2007Silver, dxSkinOffice2010Black,
+  dxSkinOffice2010Blue, dxSkinOffice2010Silver, dxSkinOffice2013DarkGray,
+  dxSkinOffice2013LightGray, dxSkinOffice2013White, dxSkinOffice2016Colorful,
+  dxSkinOffice2016Dark, dxSkinPumpkin, dxSkinSeven, dxSkinSevenClassic,
+  dxSkinSharp, dxSkinSharpPlus, dxSkinSilver, dxSkinSpringTime, dxSkinStardust,
+  dxSkinSummer2008, dxSkinTheAsphaltWorld, dxSkinsDefaultPainters,
+  dxSkinValentine, dxSkinVisualStudio2013Blue, dxSkinVisualStudio2013Dark,
+  dxSkinVisualStudio2013Light, dxSkinVS2010, dxSkinWhiteprint,
+  dxSkinXmas2008Blue, dxSkinscxPCPainter, cxCustomData, cxFilter, cxData,
+  cxDataStorage, cxEdit, cxNavigator, Data.DB, cxDBData, Vcl.ComCtrls,
+  cxGridLevel, cxClasses, cxGridCustomView, cxGridCustomTableView,
+  cxGridTableView, cxGridDBTableView, cxGrid, MemDS, DBAccess, Uni,
+  dxRibbonSkins, dxSkinsdxRibbonPainter, dxRibbonCustomizationForm,
+  dxSkinsdxBarPainter, dxBar, dxRibbon, System.Actions, Vcl.ActnList,
+  dxSkinsForm;
+
+type
+  TfregistroAfiliados = class(TForm)
+    lbl1: TLabel;
+    edtbuscar: TEdit;
+    btnbuscar: TSpeedButton;
+    cxgrdbtblvwGrid1DBTableView1: TcxGridDBTableView;
+    cxgrdlvlGrid1Level1: TcxGridLevel;
+    cxgrd1: TcxGrid;
+    stat1: TStatusBar;
+    cxgrdbclmnGrid1DBTableView1Column1: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column2: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column3: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column4: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column5: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column6: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column7: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column8: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column9: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column10: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column11: TcxGridDBColumn;
+    cxgrdbclmnGrid1DBTableView1Column12: TcxGridDBColumn;
+    ds1: TUniDataSource;
+    unqry1: TUniQuery;
+    procedure FormCreate(Sender: TObject);
+    procedure dxbrlrgbtn3Click(Sender: TObject);
+    procedure dxbrlrgbtn4Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fregistroAfiliados: TfregistroAfiliados;
+
+implementation
+
+uses
+  Datamodulo, fnuevoafiliado;
+
+{$R *.dfm}
+
+procedure TfregistroAfiliados.dxbrlrgbtn3Click(Sender: TObject);
+begin
+//
+end;
+
+procedure TfregistroAfiliados.dxbrlrgbtn4Click(Sender: TObject);
+begin
+//
+end;
+
+procedure TfregistroAfiliados.FormCreate(Sender: TObject);
+begin
+unqry1.Open;
+
+stat1.Panels[1].Text := 'Registro de Afiliados';
+end;
+
+end.

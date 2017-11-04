@@ -1,0 +1,72 @@
+unit Formulario_Inicio_Sesion;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  dxGDIPlusClasses;
+
+type
+  Tfcredenciales = class(TForm)
+    pnl1: TPanel;
+    lbl1: TLabel;
+    edtusuario: TEdit;
+    lbl2: TLabel;
+    edtpass: TEdit;
+    btncerrar: TButton;
+    btnAsistenteAdmin: TButton;
+    img1: TImage;
+    lbl3: TLabel;
+    lbl4: TLabel;
+    lbl5: TLabel;
+    lbl6: TLabel;
+    lbl7: TLabel;
+    rg1: TRadioGroup;
+    btn1: TButton;
+    procedure btncerrarClick(Sender: TObject);
+    procedure btn1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fcredenciales: Tfcredenciales;
+
+implementation
+
+uses
+  Datamodulo, main;
+
+{$R *.dfm}
+
+procedure Tfcredenciales.btn1Click(Sender: TObject);
+begin
+       data.con1.Connected:=False;
+       try
+           data.con1.Username := edtusuario.Text;
+           data.con1.Password := edtpass.Text;
+           fcredenciales.DestroyWindowHandle;
+           fprincipal := Tfprincipal.Create(Application);
+           ShowMessage('Bienvenido SIAGT Sistema de Afiliados - Casa de los Abuelos!!');
+           fprincipal.ShowModal;
+       except
+          ShowMessage('SIAGT Sistema de Afiliados - Credenciales Invalidas!!');
+          edtusuario.SetFocus;
+          data.con1.Connected := False;
+          fprincipal.Free;
+        //ShowMessage('SIAGT Sistema de Afiliados - Credenciales Invalidas!!');
+        //edtusuario.SetFocus;
+       end;
+
+
+end;
+
+procedure Tfcredenciales.btncerrarClick(Sender: TObject);
+begin
+Application.Terminate;
+end;
+
+end.

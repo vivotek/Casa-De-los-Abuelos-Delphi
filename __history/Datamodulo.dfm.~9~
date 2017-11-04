@@ -1,0 +1,45 @@
+object data: Tdata
+  OldCreateOrder = False
+  Height = 322
+  Width = 532
+  object con1: TUniConnection
+    ProviderName = 'MySQL'
+    Database = 'casaabuelo'
+    Username = 'root'
+    Server = 'localhost'
+    Connected = True
+    Left = 24
+    Top = 24
+    EncryptedPassword = '95FF90FF92FF9EFF8CFF8BFF9AFF8DFF'
+  end
+  object mysqlnprvdr1: TMySQLUniProvider
+    Left = 24
+    Top = 80
+  end
+  object untblUsuarios: TUniTable
+    TableName = 'usuarios'
+    Connection = con1
+    CachedUpdates = True
+    Left = 152
+    Top = 32
+  end
+  object unqryusuario: TUniQuery
+    Connection = con1
+    CachedUpdates = True
+    Left = 152
+    Top = 88
+  end
+  object untblEstado_Usuarios: TUniTable
+    TableName = 'estado'
+    Connection = con1
+    CachedUpdates = True
+    Left = 296
+    Top = 24
+  end
+  object unqryEstado_Usuarios: TUniQuery
+    Connection = con1
+    CachedUpdates = True
+    Left = 288
+    Top = 80
+  end
+end
